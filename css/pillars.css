@@ -1,0 +1,60 @@
+body {
+    font-size: 16px;
+    color: maroon;
+    font-family: 'Exo', sans-serif;
+    font-weight:bolder;
+    background-color: #d7eef7!important;
+}
+
+#header-nav {
+    margin: 0;
+    background-color: lightgray;
+    border-radius: 0;
+    border: 0;
+
+}
+
+#logo-img {
+    background:url('../images/logo-ig.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 10px;
+    border: 3px solid brown;
+}
+
+
+.navbar-brand {
+    padding-top:25px;
+}
+
+.navbar-brand h1 {
+     font-family: 'Raleway', sans-serif;
+     color: #b0f;
+     font-size:2.8em;
+     text-transform:uppercase;
+     font-weight: bold;
+     text-shadow: 2px 2px 2px #222;
+     margin-top: 0;
+     margin-bottom:0;
+     line-height:0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+     text-decoration:none;
+}
+
+.navbar-brand p {
+    margin-top:10px;
+    font-size:1em;
+    color:#ff00b3bd;
+    text-shadow:1px 1px 1px black;
+    text-transform: uppercase;
+    text-align:center;
+    text-shadow:1px 1px 1px solid blue;
+}
+/* cards styling */
+.card-body{
+    background-color: lightgray;
+}
+
+

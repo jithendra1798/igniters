@@ -53,8 +53,20 @@ body {
     text-shadow:1px 1px 1px solid blue;
 }
 /* cards styling */
+.card{
+    border: 1.5px solid maroon;
+}
 .card-body{
     background-color: lightgray;
 }
-
+.know-btn{
+    border: 1.5px solid maroon;
+    color: maroon;
+    background-color: lightgray;
+}
+.know-btn:hover{
+    border: 1.5px solid  lightgray;
+    color:  lightgray;
+    background-color: maroon;
+}
 

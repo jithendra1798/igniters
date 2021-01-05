@@ -56,6 +56,9 @@ body {
 .card{
     border: 1.5px solid maroon;
 }
+.card:hover{
+    transform:scale(1.05);
+}
 .card-body{
     background-color: lightgray;
 }

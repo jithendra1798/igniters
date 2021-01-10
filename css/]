@@ -4,29 +4,22 @@ body {
     font-family: 'Exo', sans-serif;
     background-color: #d7eef7;
 }
-/**Header**/
 
-.container-fluid {
-    margin-left:5%;
-    margin-right:5%;
-}
+/**Header**/
 
 #header-nav {
     background-color: lightgray;
     border-radius: 0;
-    border-width: 5px;
-    border-color:darkgray;
-    box-shadow: 0 0 5px #3F0C1F;
-}
+    border: 0;
 
+}
 
 #logo-img {
     background:url('../images/logo.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 10px;
-    border-radius:57px;
-    border: 6px solid orange;
+    border: 3px solid brown;
 }
 
 
@@ -84,29 +77,13 @@ body {
 
 .navbar-header button.navbar-toggle {
   clear: both;
-/*  margin-top: -30px;*/
+  margin-top: -30px;
 }
 /* END HEADER */
 
-/* HOME PAGE */
-
-.container .jumbotron {
-  border-radius:0;
-  opacity:0.4;
-  padding:0;
-  margin:0;
-  box-shadow: 0 0 20px #3F0C1F;
-  border: 2px solid #3F0C1F;
-}
-
-/* END HOME PAGE */
-
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-    .container .jumbotron {
-    background: url('../images/jumbotron-1200-2.jpg') no-repeat;
-    height: 675px;
+
 }
 
 /********** Medium devices only **********/
@@ -119,23 +96,11 @@ body {
     margin: 5px 5px 5px 0;
   }
   /* End Header */
-
-   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron-992-1.jpg') no-repeat;
-    height: 558px;
-  }
-  /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-      /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron-992-2.jpg') no-repeat;
-    height: 432px;
-  }
-  /* End Home Page */
+
 }
 
 /********** Extra small devices only **********/
@@ -155,21 +120,28 @@ body {
   }
   
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-    vertical-align:center;
-    font-weight:bold;
+    font-size: 1.44444444444444444444444444444444444444444444em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
   }
-/*End of Header*/
 
-  /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
   }
-
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
 
 }

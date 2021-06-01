@@ -104,6 +104,8 @@ body {
   padding:15px;
   box-shadow: 0 0 20px #3F0C1F;
   border: 2px solid #3F0C1F;
+  font-family: 'Raleway', sans-serif;
+  font-size : 1.1em;
 }
 
 /* END HOME PAGE */

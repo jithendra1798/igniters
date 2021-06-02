@@ -140,8 +140,8 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
       /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron-992-1.jpg') no-repeat;
-    height: 441px;
+    /*background: url('../images/jumbotron-992-1.jpg') no-repeat;*/
+    height: 60%;
   }
   /* End Home Page */
 }
